@@ -1,0 +1,106 @@
+
+
+.grid-container 
+{
+	display : grid ;
+	margin: 0 auto;
+	width : 1024px;
+    grid-template-columns : auto;
+	background-color: white;
+}
+
+.logo
+{
+	background-color: #C4A381;
+	height: 100px;
+	
+}
+
+.navbar
+{
+	background-color: #C4A381;
+	height: 30px;
+	border-top: 5px solid #644536;
+	border-bottom: 5px solid #644536;
+}
+
+.main
+{
+	/*background-color: #644536;*/
+	height: 900px;
+	margin-top: 2em;
+	
+}
+
+.navigation
+{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	align-items: Center;
+	justify-content: space-between;
+}
+
+.navigation > div a
+{
+	color: #644536;
+	font-weight: bold;
+	text-decoration: none;
+	font-stretch:100;
+	font-size: 1.5em;
+}
+.navigation > div 
+{
+	margin: auto;
+}
+
+.thumbnailcontainer
+{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	justify-content: space-between;
+	grid-row-gap: 24px;
+}
+
+.thumbnailcontainer > figure > a > img
+{
+	width: 500px;
+	height: 400px;
+	background-color: #644536;
+}
+
+.thumbnailcontainer > img
+{
+	width: 500px;
+	height: 400px;
+}
+
+.thumbnailcontainer > figure
+{
+	margin: 0;
+	/*overflow: hidden;*/
+	position: relative;
+	background-color:  #000000;
+}
+
+.thumbnailcontainer > figure > figcaption
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+}
+
+.thumbnailcontainer > figure > a > img:hover
+{
+	opacity: 0.5;
+	transform: translate(0,0,0) scale(1);
+}
+
+
+
+
+
