@@ -29,7 +29,15 @@
 	/*background-color: #644536;*/
 	height: 900px;
 	margin-top: 2em;
+	/*border: 2px solid #644536;*/
 	
+}
+
+.main > h1
+{
+	text-align: center;
+	font-family: Brush Script MT;
+	color: #644536;
 }
 
 .navigation
@@ -64,25 +72,17 @@
 	grid-row-gap: 24px;
 }
 
-.thumbnailcontainer > figure > a > img
-{
-	width: 500px;
-	height: 400px;
-	background-color: #644536;
-}
-
-.thumbnailcontainer > img
-{
-	width: 500px;
-	height: 400px;
-}
-
 .thumbnailcontainer > figure
 {
 	margin: 0;
-	/*overflow: hidden;*/
 	position: relative;
 	background-color:  #000000;
+}
+
+.thumbnailcontainer > figure > img
+{
+	width: 500px;
+	height: 400px;
 }
 
 .thumbnailcontainer > figure > figcaption
@@ -94,13 +94,22 @@
 	width: 100%;
 }
 
-.thumbnailcontainer > figure > a > img:hover
+.thumbnailcontainer > figure:hover > img
 {
 	opacity: 0.5;
-	transform: translate(0,0,0) scale(1);
+	transform: scale(1);
 }
 
+.thumbnailcontainer > figure > figcaption > a
+{
+	opacity: 0;
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: Brush Script MT;
+}
 
-
-
-
+.thumbnailcontainer > figure:hover > figcaption > a
+{
+	opacity: 1;	
+}
