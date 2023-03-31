@@ -5,7 +5,7 @@
 	display : grid ;
 	margin: 0 auto;
 	width : 1024px;
-    grid-template-columns : auto;
+    grid-template-columns : repeat(2, 1fr);
 	background-color: white;
 }
 
@@ -13,7 +13,8 @@
 {
 	background-color: #C4A381;
 	height: 100px;
-	
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
 .navbar
@@ -22,6 +23,8 @@
 	height: 30px;
 	border-top: 5px solid #644536;
 	border-bottom: 5px solid #644536;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
 .main
@@ -30,7 +33,18 @@
 	height: 900px;
 	margin-top: 2em;
 	/*border: 2px solid #644536;*/
-	
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.sidebar
+{
+	/*height: 900px;*/
+	margin-top: 2em;
+	background-color: #C4A381;
+	border: 2px solid #644536;
+	grid-column-start: 2;
+	grid-column-end: 3;
 }
 
 .main > h1
@@ -112,4 +126,18 @@
 .thumbnailcontainer > figure:hover > figcaption > a
 {
 	opacity: 1;	
+}
+
+.gallery
+{
+	margin-bottom: 7px;
+	display: grid;
+	justify-content: center;
+}
+
+.gallery > img
+{
+	margin-top: 1em;
+	width: 500px;
+	height: 400px;
 }
