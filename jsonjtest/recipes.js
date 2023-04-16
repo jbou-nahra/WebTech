@@ -10,7 +10,7 @@ function loadQuestions() {
         console.log('error: JSON not loaded'); 
     })
     .done(function() {
-        console.log( "JSON loaded!" );
+        console.log(allquestions);
         //printQuestion(allQuestions[0]); 
     });
 }
