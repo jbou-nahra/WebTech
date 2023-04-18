@@ -27,6 +27,14 @@
 	grid-column-end: 3;
 }
 
+.searchmain
+{
+	margin-top: 2em;
+	/*border: 2px solid #644536;*/
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
 .main
 {
 	/*background-color: #644536;*/
@@ -35,6 +43,14 @@
 	/*border: 2px solid #644536;*/
 	grid-column-start: 1;
 	grid-column-end: 2;
+}
+
+.searchmain
+{
+	margin-top: 2em;
+	/*border: 2px solid #644536;*/
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
 .sidebar
@@ -141,3 +157,33 @@
 	width: 500px;
 	height: 400px;
 }
+
+.searchcontainer
+{
+	display:flex;
+	flex-direction: column;
+	gap: .25rem;
+}
+
+.input
+{ 
+	font-size: 1rem;
+}
+
+.recipecards
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.card
+{
+	border: 1px solid black;
+	padding: .5rem;
+}
+
+.hide
+{
+	display: none;
+}
+	

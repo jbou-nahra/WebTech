@@ -1,15 +1,16 @@
 
-	var allRecipes = new Array();
-function loadRecipes() {
+	var allQuestions = new Array();
+function loadQuestions() {
 	
 		
     $.getJSON('question.json', function (data) {
-        allRecipes = data.recipe;
+        allQuestions = data.quiz;
     })
     .error(function() {
         console.log('error: JSON not loaded'); 
     })
     .done(function() {
-        console.log(allRecipes);
+        console.log(allQuestions);
+        //printQuestion(allQuestions[0]); 
     });
 }

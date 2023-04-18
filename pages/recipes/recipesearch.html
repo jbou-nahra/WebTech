@@ -1,63 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<title>SET08801 - Kinder Cookery</title>
 		<link rel = "stylesheet" href = "../../cookery.css" type="text/css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+		<script type = "text/javascript" src="../../js/recipes.js"></script>
+		
 	</head>
-	<body>
 	
-	<div class ="grid-container">
+	<body onload='loadRecipes()'>
+		<div class ="grid-container">
 	
-		<div class ="logo"><img src="../../docs/assets/images/logo.jpg"></div >
-		
-		<div class ="navbar">
-			<div class="navigation">
-				<div><a href='../../index.html'>Home</a></div>
-				<div><a href='#'>Recipes</a></div>
-				<div><a href='../blogs/blogsearch.html'>Blogs</a></div>
-				<div><a href='#'>Sign-In</a></div>
-			</ul>
-		</div >
-		
-		<div class ="main">
-			<h1>RECIPES</h1>
-			<div class="thumbnailcontainer">
-				<figure>
-					<img src="../../docs/assets/images/Food/bakechkn1.jpg">
-					<figcaption>
-						<a href="#"><h1>Bake Chicken</h1></a>
-					</figcaption>
-				</figure>
-				
-				<figure>
-					<img src="../../docs/assets/images/Food/cacciatorie1.jpg">
-					<figcaption>
-						<a href="#"><h1>Chicken Cacciatore</h1></a>
-					</figcaption>
-				</figure>
-				
-				<figure>
-					<img src="../../docs/assets/images/Food/sashimi1.jpg">
-					<figcaption>
-						<a href="#"><h1>Sashimi</h1></a>
-					</figcaption>
-				</figure>
-				
-				<figure>
-					<img src="../../docs/assets/images/Food/steak1.jpg">
-					<figcaption>
-						<a href="#"><h1>Steak</h1></a>
-					</figcaption>
-				</figure>
-				
-				<figure>
-					<img src="../../docs/assets/images/Food/fishdessert1.jpg">
-					<figcaption>
-						<a href="#"><h1>Fish Tart</h1></a>
-					</figcaption>
-				</figure>
+			<div class ="logo"><img src="../../docs/assets/images/logo.jpg"></div >
+			
+			<div class ="navbar">
+				<div class="navigation">
+					<div><a href='../../index.html'>Home</a></div>
+					<div><a href='#'>Recipes</a></div>
+					<div><a href='../blogs/blogsearch.html'>Blogs</a></div>
+					<div><a href='#'>Sign-In</a></div>
+				</div>
 			</div>
-		</div>	
+			
+			<div class ="searchmain">
+				<h1>RECIPES</h1>
+				
+				<div class="searchcontainer">
+					<label for="search"> Search: </label>
+					<input type ="text" id="search" />
+				</div>
+				
+				<div class="recipecards">
+					<div class="card">
+						<div class="recipename">Bake Chicken</div>
+					</div>
+					
+					<div class="card">
+						<div class="recipename">Bake Chicken</div>
+					</div>
+					
+					<div class="card">
+						<div class="recipename">Bake Chicken</div>
+					</div>
+					
+					<div class="card">
+						<div class="recipename">Bake Chicken</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
 	</body>
 </html>
 	
