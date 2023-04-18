@@ -3,7 +3,7 @@
 function loadRecipes() {
 	
 		
-    $.getJSON('question.json', function (data) {
+    $.getJSON('recipes.json', function (data) {
         allRecipes = data.recipe;
     })
     .error(function() {
