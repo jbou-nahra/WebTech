@@ -44,7 +44,7 @@ $.getJSON('recipes.json', function (data)
 		a.appendChild(linkText);
 		a.title = recipename;
 		a.href = recipelink;
-		
+		recipelink = a;
 		
 		
 		
