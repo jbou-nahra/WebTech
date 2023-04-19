@@ -8,11 +8,11 @@ var recipes = new Array();
 
 searchinput.addEventListener("input", function (e) 
 {
-	const value = e.target.value;
+	const value = e.target.value.toLowerCase();
 	
 	for(var i = 0; i < recipes.length; i++)
 	{
-		const isvisible = recipes[i].name.includes(value);
+		const isvisible = recipes[i].name.toLowerCase().includes(value);
 		recipes[i].element.classList.toggle("hide", !isvisible);
 	}      
 	//console.log(recipes);
