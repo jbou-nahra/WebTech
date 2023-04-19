@@ -16,6 +16,7 @@ $.getJSON('recipes.json', function (data)
    
 for(var i = 0; i < allRecipes.length; i++)
 {
+	console.log("in for loop");
 	const card = recipecardtemplate.content.cloneNode(true).children[0];
 	const recipename = card.querySelector("[data-recipename]");
 	recipename.textContent = allRecipes[i].name;
