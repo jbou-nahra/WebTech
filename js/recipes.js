@@ -1,7 +1,7 @@
 
 var allRecipes = new Array();
-const recipecardtemplate = document.querySelector("[data-recipe-template]")
-const recipecardcontainer = document.querySelector("[data-recipe-cards-container]")
+const recipecardtemplate = document.querySelector("[data-recipe-template]");
+const recipecardcontainer = document.querySelector("[data-recipe-cards-container]");
 
 function loadRecipes() {
 	
