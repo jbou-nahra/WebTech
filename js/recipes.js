@@ -6,8 +6,10 @@ const recipecardcontainer = document.querySelector("[data-recipe-cards-container
 
 	
 		
-$.getJSON('recipes.json', function (data) 
+$.getJSON('recipes.json', function (data)
+{ 
     allRecipes = data.recipe;
+})
    
    
 for(var i = 0; i < allRecipes.length; i++)
