@@ -38,7 +38,7 @@ $.getJSON('recipes.json', function (data)
 		const recipename = card.querySelector("[data-recipename]");
 		const recipelink = card.querySelector("[data-recipelink]");
 		recipename.textContent = allRecipes[i].name;
-		const recipelinktemp = allRecipes[i].alink;
+		var recipelinktemp = allRecipes[i].alink;
 		recipelink = recipelinktemp.link(URL);
 		recipecardcontainer.append(card);
 		console.log(allRecipes);
