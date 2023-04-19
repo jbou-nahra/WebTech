@@ -13,7 +13,8 @@ $.getJSON('recipes.json', function (data)
 	console.log(allRecipes);
 })
    
-   
+console.log("before for loop");
+
 for(var i = 0; i < allRecipes.length; i++)
 {
 	console.log("in for loop");
