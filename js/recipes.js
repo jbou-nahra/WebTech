@@ -33,7 +33,7 @@ $.getJSON('recipes.json', function (data)
 		recipename.textContent = allRecipes[i].name;
 		recipecardcontainer.append(card);
 		console.log(allRecipes);
-		recipes[i] = { name: allRecipes[i].name, element: card; }
+		recipes[i] = { name: allRecipes[i].name, element: card }
 	}      
 })
   
