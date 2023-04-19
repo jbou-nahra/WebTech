@@ -13,7 +13,7 @@ searchinput.addEventListener("input", function (e)
 	for(var i = 0; i < recipes.length; i++)
 	{
 		const isvisible = recipes[i].name.includes(value);
-		recipes[i].element.classList.toggle("hide", !isVisible);
+		recipes[i].element.classList.toggle("hide", !isvisible);
 	}      
 	//console.log(recipes);
 })
