@@ -12,15 +12,41 @@ $.getJSON('recipes.json', function (data)
 	console.log("in here");
 	console.log(allRecipes);
 })
-   
-console.log("before for loop");
-
-for(var i = 0; i < allRecipes.length; i++)
+.error(function() 
 {
-	console.log("in for loop");
-	const card = recipecardtemplate.content.cloneNode(true).children[0];
-	const recipename = card.querySelector("[data-recipename]");
-	recipename.textContent = allRecipes[i].name;
-	recipecardcontainer.append(card);
-	console.log(allRecipes);
-}
+    console.log('error: JSON not loaded'); 
+}) 
+.done(function() 
+{
+	console.log("before for loop");
+	for(var i = 0; i < allRecipes.length; i++)
+	{
+		console.log("in for loop");
+		const card = recipecardtemplate.content.cloneNode(true).children[0];
+		const recipename = card.querySelector("[data-recipename]");
+		recipename.textContent = allRecipes[i].name;
+		recipecardcontainer.append(card);
+		console.log(allRecipes);
+	}      
+})
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
