@@ -7,7 +7,7 @@ const searchinput = document.querySelector("[data-search]");
 searchinput.addEventListener("input", function (e) 
 {
 	const value = e.target.value;
-	cosole.log(value);
+	console.log(value);
 })
 		
 $.getJSON('recipes.json', function (data)
