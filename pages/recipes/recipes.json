@@ -3,11 +3,11 @@
     [
          {
              "name": "Baked Chicken",
-			"alink": "href='blogbakechkn.html'<h1>Bake Chicken</h1>"
+			"alink": "blogbakechkn.html"
          },
          {
              "name": "Chicken Cacciatore",
-			"alink": "href='blogcacciatore.html'<h1>Chicken Cacciatore</h1>"
+			"alink": "blogcacciatore.html"
          }
 	]
 }
