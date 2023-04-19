@@ -9,7 +9,13 @@ var recipes = new Array();
 searchinput.addEventListener("input", function (e) 
 {
 	const value = e.target.value;
-	console.log(recipes);
+	
+	for(var i = 0; i < allRecipes.length; i++)
+	{
+		const isvisible = allRecipes[i].name.includes(value);
+		allRecipes[i].element.classList.toggle("hide", !isVisible);
+	}      
+	//console.log(recipes);
 })
 		
 $.getJSON('recipes.json', function (data)
