@@ -4,7 +4,7 @@ const recipecardtemplate = document.querySelector("[data-recipe-template]");
 const recipecardcontainer = document.querySelector("[data-recipe-cards-container]");
 const searchinput = document.querySelector("[data-search]");
 
-searchInput.addEventListener("input", function (e) 
+searchinput.addEventListener("input", function (e) 
 {
 	const value = e.target.value;
 	cosole.log(value);
