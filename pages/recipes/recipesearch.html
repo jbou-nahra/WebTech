@@ -31,24 +31,13 @@
 					<input type ="text" id="search" />
 				</div>
 				
-				<div class="recipecards">
-					<div class="card">
-						<div class="recipename">Bake Chicken</div>
-					</div>
-					
-					<div class="card">
-						<div class="recipename">Bake Chicken</div>
-					</div>
-					
-					<div class="card">
-						<div class="recipename">Bake Chicken</div>
-					</div>
-					
-					<div class="card">
-						<div class="recipename">Bake Chicken</div>
-					</div>
+				<div class="recipecards" data-recipe-cards-container>
+					<template data-recipe-template>
+						<div class="card">
+							<div class="recipename" data-recipename></div>
+						</div>
+					</template>
 				</div>
-				
 			</div>
 		</div>
 	</body>
