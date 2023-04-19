@@ -10,10 +10,10 @@ searchinput.addEventListener("input", function (e)
 {
 	const value = e.target.value;
 	
-	for(var i = 0; i < allRecipes.length; i++)
+	for(var i = 0; i < recipes.length; i++)
 	{
-		const isvisible = allRecipes[i].name.includes(value);
-		allRecipes[i].element.classList.toggle("hide", !isVisible);
+		const isvisible = recipes[i].name.includes(value);
+		recipes[i].element.classList.toggle("hide", !isVisible);
 	}      
 	//console.log(recipes);
 })
