@@ -15,7 +15,7 @@ function loadRecipes() {
     .done(function() {
 		for(var i = 0; i < allRecipes.length; i++)
 		{
-			const card = recipecardtemplate.content.cloneNode(true).chlldren[0];
+			const card = recipecardtemplate.content.cloneNode(true).children[0];
 			const recipename = card.querySelector("[data-recipename]");
 			recipename.textContent = allRecipes[i].name;
 			recipecardcontainer.append(card);
