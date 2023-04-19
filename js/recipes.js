@@ -36,7 +36,7 @@ $.getJSON('recipes.json', function (data)
 		console.log("in for loop");
 		const card = recipecardtemplate.content.cloneNode(true).children[0];
 		const recipename = card.querySelector("[data-recipename]");
-		const recipelink = card.querySelector("[data-recipelink]");
+		var recipelink = card.querySelector("[data-recipelink]");
 		recipename.textContent = allRecipes[i].name;
 		var recipelinktemp = allRecipes[i].alink;
 		recipelink = recipelinktemp.link(URL);
