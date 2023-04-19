@@ -4,10 +4,12 @@ const recipecardtemplate = document.querySelector("[data-recipe-template]");
 const recipecardcontainer = document.querySelector("[data-recipe-cards-container]");
 const searchinput = document.querySelector("[data-search]");
 
+let recipes = new Array();
+
 searchinput.addEventListener("input", function (e) 
 {
 	const value = e.target.value;
-	console.log(value);
+	console.log(recipes);
 })
 		
 $.getJSON('recipes.json', function (data)
@@ -31,6 +33,7 @@ $.getJSON('recipes.json', function (data)
 		recipename.textContent = allRecipes[i].name;
 		recipecardcontainer.append(card);
 		console.log(allRecipes);
+		recipes[i] = allRecipes[i].name, element: card;
 	}      
 })
   
