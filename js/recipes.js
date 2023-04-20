@@ -48,12 +48,6 @@ $.getJSON('recipes.json', function (data)
 		document.body.appendChild(anchor);
 		
 		
-		
-		
-		
-		
-		
-		
 		card.append(anchor);
 		recipecardcontainer.append(card);
 		console.log(allRecipes);
