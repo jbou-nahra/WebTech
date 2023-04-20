@@ -41,12 +41,13 @@ $.getJSON('recipes.json', function (data)
 		recipelink.textContent = allRecipes[i].alink;
 		
 		const jsonname = allRecipes[i].name;
+		const jsonlink = allRecipes[i].alink;
 		
 		
 		let anchor = document.createElement('a');
 		let link = document.createTextNode(jsonname);
 		anchor.appendChild(link);
-		anchor.href = "https://linuxhint.com/";
+		anchor.href = jsonlink;
 		//document.body.appendChild(anchor);
 		
 		
