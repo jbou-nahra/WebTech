@@ -37,8 +37,8 @@ $.getJSON('recipes.json', function (data)
 		const card = recipecardtemplate.content.cloneNode(true).children[0];
 		//const recipename = card.querySelector("[data-recipename]");
 		//const recipelink = card.querySelector("[data-recipelink]");
-		recipename.textContent = allRecipes[i].name;
-		recipelink.textContent = allRecipes[i].alink;
+		//recipename.textContent = allRecipes[i].name;
+		//recipelink.textContent = allRecipes[i].alink;
 		
 		const jsonname = allRecipes[i].name;
 		const jsonlink = allRecipes[i].alink;
