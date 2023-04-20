@@ -36,11 +36,25 @@ $.getJSON('recipes.json', function (data)
 		console.log("in for loop");
 		const card = recipecardtemplate.content.cloneNode(true).children[0];
 		const recipename = card.querySelector("[data-recipename]");
-		var recipelink = card.querySelector("[data-recipelink]");
+		const recipelink = card.querySelector("[data-recipelink]");
 		recipename.textContent = allRecipes[i].name;
-		recipelink = allRecipes[i].alink;
-		//var recipelinktemp = allRecipes[i].alink;
-		//recipelink = recipename.textContent.link(recipelinktemp);
+		recipelink.textContent = allRecipes[i].alink;
+		
+		
+		let anchor = document.createElement('a');
+		let link = document.createTextNode("Linuxhint Website");
+		anchor.appendChild(link);
+		anchor.href = "https://linuxhint.com/";
+		document.body.appendChild(anchor);
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		recipecardcontainer.append(card);
 		console.log(allRecipes);
 		recipes[i] = { name: allRecipes[i].name, element: card }
