@@ -63,7 +63,7 @@
 	grid-column-end: 3;
 }
 
-.h1
+.searchmain > h1
 {
 	text-align: center;
 	font-family: Brush Script MT;
@@ -168,19 +168,21 @@
 .searchcontainer
 {
 	display:flex;
-	flex-direction: column;
+	flex-direction: row;
 	gap: .25rem;
 }
 
 .input
 { 
-	font-size: 1rem;
+	font-size: 2rem;
 }
 
 .recipecards
 {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	justify-content: space-between;
+	grid-row-gap: 24px;
 }
 
 .card
