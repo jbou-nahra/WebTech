@@ -54,7 +54,7 @@ $.getJSON('recipes.json', function (data)
 		
 		
 		
-		Recipecardtemplate.append(anchor);
+		card.append(anchor);
 		recipecardcontainer.append(card);
 		console.log(allRecipes);
 		recipes[i] = { name: allRecipes[i].name, element: card }
