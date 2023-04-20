@@ -42,7 +42,7 @@ $.getJSON('recipes.json', function (data)
 		
 		
 		let anchor = document.createElement('a');
-		let link = document.createTextNode("Linuxhint Website");
+		let link = document.createTextNode(recipename);
 		anchor.appendChild(link);
 		anchor.href = "https://linuxhint.com/";
 		//document.body.appendChild(anchor);
