@@ -63,13 +63,6 @@
 	grid-column-end: 3;
 }
 
-.searchmain > h1
-{
-	text-align: center;
-	font-family: Brush Script MT;
-	color: #644536;
-}
-
 .main > h1
 {
 	text-align: center;
@@ -173,9 +166,15 @@
 	justify-content: center;
 }
 
+.label
+{
+	font-family: Brush Script MT;
+	color: #644536;
+}
+	
 .input
 { 
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 .recipecards
