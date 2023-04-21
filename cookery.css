@@ -173,14 +173,14 @@
 	font-size: 1.5em;
 }
 	
-.searchcontainer input
+.searchcontainer > input
 { 
-	width: 400px;
+	width: 350px;
 }
 
 .recipecards
 {
-	margin-top: 20px;
+	margin-top: 30px;
 	display: grid;
 	grid-template-columns: repeat(4, auto);
 	justify-content: space-between;
@@ -191,7 +191,7 @@
 {
 	border: 1px solid black;
 	padding: .5rem;
-	margin-bottom: 7px;
+	margin-bottom: 30px;
 }
 
 .card > a
@@ -199,7 +199,7 @@
 	text-align: center;
 	font-family: Brush Script MT;
 	color: #644536;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 .hide
