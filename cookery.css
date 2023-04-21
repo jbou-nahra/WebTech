@@ -194,8 +194,7 @@
 	padding: .5rem;
 	margin-bottom: 30px;
 	width: 200px;
-	height: 100%;
-	align-items: Center;
+	
 }
 
 .card > a
@@ -204,6 +203,8 @@
 	/*font-family: Brush Script MT;*/
 	color: #644536;
 	font-size: 1.75em;
+	height: 100%;
+	align-items: Center;
 	/*width: 100%;*/
 }
 
