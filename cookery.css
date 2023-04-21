@@ -184,7 +184,6 @@
 	display: grid;
 	grid-template-columns: repeat(4, auto);
 	justify-content: space-between;
-	grid-row-gap: 20px;
 	width:100%;
 }
 
@@ -193,7 +192,7 @@
 	border: 1px solid #644536;
 	padding: .5rem;
 	margin-bottom: 30px;
-	width: 250px;
+	width: 200px;
 }
 
 .card > a
