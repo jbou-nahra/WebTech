@@ -207,6 +207,7 @@
 	/*height: 100%;
 	align-items: Center;
 	/*width: 100%;*/
+	vertical-align: middle;
 }
 
 .card > a:hover
