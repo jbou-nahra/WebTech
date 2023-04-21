@@ -173,9 +173,9 @@
 	font-size: 1.5em;
 }
 	
-.input
+.searchcontainer input
 { 
-	font-size: 3rem;
+	width: 400px;
 }
 
 .recipecards
