@@ -189,17 +189,23 @@
 
 .card
 {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	padding: .5rem;
 	margin-bottom: 30px;
 }
 
 .card > a
 {
-	text-align: center;
+	text-decoration: none;
+	/*text-align: center;*/
 	font-family: Brush Script MT;
 	color: #644536;
 	font-size: 2em;
+}
+
+.card > a:hover
+{
+	font-size: 3em;
 }
 
 .hide
