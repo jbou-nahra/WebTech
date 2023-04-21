@@ -198,14 +198,14 @@
 {
 	text-decoration: none;
 	/*text-align: center;*/
-	font-family: Brush Script MT;
+	/*font-family: Brush Script MT;*/
 	color: #644536;
 	font-size: 2em;
 }
 
 .card > a:hover
 {
-	font-size: 3em;
+	font-weight: bold;
 }
 
 .hide
