@@ -15,14 +15,11 @@ searchinput.addEventListener("input", function (e)
 		const isvisible = recipes[i].name.toLowerCase().includes(value);
 		recipes[i].element.classList.toggle("hide", !isvisible);
 	}      
-	//console.log(recipes);
 })
 		
 $.getJSON('recipes.json', function (data)
 { 
     allRecipes = data.recipe;
-	console.log("in here");
-	console.log(allRecipes);
 })
 .error(function() 
 {
@@ -30,30 +27,20 @@ $.getJSON('recipes.json', function (data)
 }) 
 .done(function() 
 {
-	console.log("before for loop");
+
 	for(var i = 0; i < allRecipes.length; i++)
 	{
-		console.log("in for loop");
 		const card = recipecardtemplate.content.cloneNode(true).children[0];
-		//const recipename = card.querySelector("[data-recipename]");
-		//const recipelink = card.querySelector("[data-recipelink]");
-		//recipename.textContent = allRecipes[i].name;
-		//recipelink.textContent = allRecipes[i].alink;
-		
 		const jsonname = allRecipes[i].name;
 		const jsonlink = allRecipes[i].alink;
-		
-		
+				
 		let anchor = document.createElement('a');
 		let link = document.createTextNode(jsonname);
 		anchor.appendChild(link);
-		anchor.href = jsonlink;
-		//document.body.appendChild(anchor);
-		
+		anchor.href = jsonlink;		
 		
 		card.append(anchor);
 		recipecardcontainer.append(card);
-		console.log(allRecipes);
 		recipes[i] = { name: allRecipes[i].name, element: card }
 	}      
 })
