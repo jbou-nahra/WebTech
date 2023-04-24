@@ -16,22 +16,6 @@
          {
              "name": "Chicken Estofado",
 			"alink": "blogestofado.html"
-         },
-         {
-             "name": "Beef Stir Fry",
-			"alink": "blogbakechkn.html"
-         },
-         {
-             "name": "Chicken Soup",
-			"alink": "blogbakechkn.html"
-         },
-         {
-             "name": "Beef Stroganoff",
-			"alink": "blogbakechkn.html"
-         },
-         {
-             "name": "Fry Jacks",
-			"alink": "blogbakechkn.html"
          }
 	]
 }
