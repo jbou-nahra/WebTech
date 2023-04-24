@@ -60,7 +60,6 @@
 {
 	display:flex;	
 	flex-direction: column;
-	border: 1px solid #644536;
 	grid-column-start: 1;
 	grid-column-end: 5;
 }
@@ -70,22 +69,22 @@
 	display:flex;
 	flex-direction: row;
 	width:100%;
-	border: 1px solid black;
-	height: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	/*background-color: #C4A381;*/
 }
 
-.actualrecipe
+.recipeingredients
 {
-	border: 1px solid black;
+	border-right: 1px solid black;
 	width: 20%;
+	margin-top: 1em;
 }
 
 .recipeinstruction
 {
-	border: 1px solid black;
 	width: 80%;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 }
 	
 
@@ -269,10 +268,33 @@
 .recipeinstruction > h1
 {
 	margin-top: 0;
-	margin-left: 0.2em;
-	margin-right: 0.2em;
 	font-family: Brush Script MT;
 	color: #644536;
 	border-bottom: 1px solid #644536;
 }
-	
+
+.recipeingredients > h4
+{
+	color: #644536;
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 0.5em;
+}
+
+.recipeingredients > ul
+{
+	margin-top: 1em;
+	margin-right: 1em;
+}
+
+.recipeinstruction > ol
+{
+	padding-left: 1em;
+
+}
+
+.recipeinstruction > ol > li
+{
+	margin-bottom: 20px;
+
+}
