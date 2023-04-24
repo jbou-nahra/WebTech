@@ -27,6 +27,13 @@
 	grid-column-end: 3;
 }
 
+.home
+{
+	margin-top: 2em;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
 .main
 {
 	/*background-color: #644536;*/
