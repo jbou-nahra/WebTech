@@ -29,7 +29,7 @@
 
 .home
 {
-	margin-top: 2em;
+	margin-top: 1em;
 	grid-column-start: 1;
 	grid-column-end: 3;
 }
@@ -321,4 +321,11 @@
 {
 	width: 90%;
 	
+}
+
+.home > img
+{
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
 }
