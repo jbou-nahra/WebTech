@@ -291,6 +291,11 @@
 	margin-right: 1em;
 }
 
+.recipeingredients > ul > li
+{
+	margin-bottom: 0.5em;
+}
+
 .recipeinstruction > ol
 {
 	padding-left: 1em;
