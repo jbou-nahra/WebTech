@@ -9,6 +9,11 @@
 	background-color: white;
 }
 
+.body
+{
+	padding-bottom:50px;
+}
+
 .logo
 {
 	background-color: #C4A381;
@@ -27,6 +32,23 @@
 	grid-column-end: 3;
 }
 
+.footer
+{
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.navbar2
+{
+	background-color: #C4A381;
+	height: 30px;
+	border-top: 5px solid #644536;
+	border-bottom: 5px solid #644536;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	margin-top: 1em;
+}
+
 .home
 {
 	margin-top: 1em;
@@ -37,7 +59,6 @@
 .main
 {
 	/*background-color: #644536;*/
-	height: 900px;
 	margin-top: 2em;
 	/*border: 2px solid #644536;*/
 	grid-column-start: 1;
