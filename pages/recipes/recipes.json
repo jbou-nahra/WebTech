@@ -14,8 +14,12 @@
 			"alink": "mushroomchknrecipe.html"
          },
          {
-             "name": " Chicken  \n  Estofado ",
+             "name": "Chicken Estofado",
 			"alink": "estofadorecipe.html"
-         }
+         },
+		 {
+			 "name": "Sticky Chinese Chicken Wings",
+			"alink": "chinesechknwingrecipe.html"
+		 }
 	]
 }
