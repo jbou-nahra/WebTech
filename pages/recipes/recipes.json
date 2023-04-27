@@ -25,5 +25,10 @@
 			 "name": "Beef Stew",
 			"alink": "beefstewrecipe.html"
 		 }
+		 ,
+		 {
+			 "name": "Teriyaki Salmon",
+			"alink": "terisalmonrecipe.html"
+		 }
 	]
 }
