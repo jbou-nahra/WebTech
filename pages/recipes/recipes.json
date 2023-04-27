@@ -20,6 +20,10 @@
 		 {
 			 "name": "Sticky Chinese Chicken Wings",
 			"alink": "chinesechknwingrecipe.html"
+		 },
+		 {
+			 "name": "Beef Stew",
+			"alink": "beefstewrecipe.html"
 		 }
 	]
 }
