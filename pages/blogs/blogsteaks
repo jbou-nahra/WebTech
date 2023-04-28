@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SET08801 - Kinder Cookery</title>
+		<link rel = "stylesheet" href = "../../cookery.css" type="text/css" />
+	</head>
+	<body>
+	
+	<div class ="grid-container">
+	
+		<div class ="logo" id="logo"><img src="../../docs/assets/images/logo.jpg"></div >
+		
+		<div class ="navbar">
+			<div class="navigation">
+				<div><a href='../../index.html'>Home</a></div>
+				<div><a href='../recipes/recipesearch.html'>Recipes</a></div>
+				<div><a href='blogsearch.html'>Blogs</a></div>
+			</div>
+		</div>
+		
+		<div class ="main">
+			<h1>Steak</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+			   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+			   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			
+		</div>
+			
+		
+		<div class ="sidebar">
+			<div class="gallery">
+				<img src="../../docs/assets/images/Food/steak1.jpg">
+				<img src="../../docs/assets/images/Food/steaks/steak2.jpg">
+				<img src="../../docs/assets/images/Food/steaks/steak3.jpg">
+			</div>
+		</div>
+		
+		<div class = "footer">
+				<div class ="navbar2">	
+					<div class="navigation">
+						<div><a href="#logo">Back To Top</a></div>
+					</div>
+				</div>
+		</div>
+		
+	</div>	
+	</body>
+</html>
+	
