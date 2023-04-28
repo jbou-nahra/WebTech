@@ -36,16 +36,25 @@
 {
 	padding-top: 2em;
 	padding-bottom: 2em;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
 
 .navbar2
 {
 	background-color: #C4A381;
+	height: 30px;
 	border-top: 5px solid #644536;
+	border-bottom: 5px solid #644536;
 	grid-column-start: 1;
 	grid-column-end: 3;
-
 }
+
+.navbar3
+{
+	border-top: 5px solid #644536;
+}
+	
 
 .home
 {
